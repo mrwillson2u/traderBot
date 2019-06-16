@@ -103,33 +103,3 @@ while dateStart < dateEnd :
 
     while datetime.now() < timecheck + delatTime:
         pass
-
-
-
-# while
-#
-#     if i == gets:
-#
-#         PARAMS = {'granularity':60, 'start': dateStart + timedelta(minutes=300*i), 'end': dateStart + timedelta(minutes=300*(i+1))}
-#     else:
-#         PARAMS = {'granularity':60, 'start': dateStart + timedelta(minutes=300*i), 'end': dateStart + timedelta(minutes=(300*i)+time_in_sec % 300)}
-#     print(dateStart + timedelta(minutes=300*i))
-#     print(dateEnd + timedelta(minutes=300*(i+1)))
-#     print(dateEnd - dateStart)
-#     # sending get request and saving the response as response object
-#     r = requests.get(url = URL, params = PARAMS)
-#
-#     data = r.json()
-#
-#     print(data)
-#
-#
-#
-#     bitHistory.write('%d,%d,%d,%d,%d,%d\n' % (float(historyData[0]), float(historyData[1]), float(historyData[2]), float(historyData[3]), float(historyData[4]), float(historyData[5])))
-#
-# bitHistory.close()
-# [
-#     [ time, low, high, open, close, volume ],
-#     [ 1415398768, 0.32, 4.2, 0.35, 4.2, 12.3 ],
-#     ...
-# ]
